@@ -15,14 +15,15 @@ class NeuralNetwork:
                 'num_neurons': layer_sizes[idx],
                 'pre_neuron_values': np.empty(layer_sizes[idx], dtype=list),
                 'neuron_values': np.empty(layer_sizes[idx], dtype=list),
-                'weights': np.random.random((layer_sizes[idx-1], layer_sizes[idx])) / layer_sizes[idx-1],
-                'bias': np.random.random((layer_sizes[idx])),
+                'weights': np.random.uniform(-1, 1, (layer_sizes[idx-1], layer_sizes[idx])) / layer_sizes[idx-1],
+                'bias': np.random.uniform(-1, 1, (layer_sizes[idx])),
                 'activation': activation_functions[idx-1],
             })
             if idx == len(layer_sizes) - 1:
                 self.layers[idx]['error_function'] = error_function
 
     def train(self, data, labels, batch_size, epochs):
+        acc = 0
         for epoch in range(epochs):
             print(f'Epoch: {epoch}')
             for i in range(0, len(data), batch_size):
@@ -31,9 +32,10 @@ class NeuralNetwork:
                 self.layers = forward_propagation(self.layers, data_batch)
                 error = calculate_error(self.layers[-1], label_batch, batch_size)
                 # print(f'Error: {np.sum(error)}')
-                acc = np.sum(np.argmax(self.layers[-1]['neuron_values'], axis=1) == np.argmax(label_batch, axis=1)) / batch_size
-                print(f'Acc: {acc}')
+                acc += np.sum(np.argmax(self.layers[-1]['neuron_values'], axis=1) == np.argmax(label_batch, axis=1)) / batch_size
                 self.layers = backpropagation(self.layers, error, label_batch, self.learning_rate)
+            print(f'Acc: {round((acc / data.shape[0]) * 100, 2)}%')
+            acc = 0
 
 
 def forward_propagation(layers, inputs):

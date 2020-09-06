@@ -20,5 +20,5 @@ random.seed(10)
 # data = np.array([[0.3, 0.1, 0.6, 0.6, 0.35], [0.7, 0.9, 0.3, 0.65, 0.9]])
 # labels = [0.5, 0.6]
 data = get_mnist()
-nn = NeuralNetwork(layer_sizes=[784, 200, 10], activation_functions=['sigmoid', 'softmax'], learning_rate=0.001)
-nn.train(data=data[0], labels=data[1], batch_size=100, epochs=30)
+nn = NeuralNetwork(layer_sizes=[784, 200, 10], activation_functions=['sigmoid', 'sigmoid'], learning_rate=0.001)
+nn.train(data=data[0], labels=data[1], batch_size=1, epochs=2)
