@@ -1,10 +1,10 @@
 import random
 import numpy as np
-from nn import NeuralNetwork
+from nn_generic import NeuralNetwork
 
 
 def get_mnist():
-    with np.load('mnist.npz') as f:
+    with np.load('data/mnist.npz') as f:
         images, labels = f['x_train'], f['y_train']
     # Normalize training data
     images = images.astype("float32") / 255
