@@ -7,13 +7,13 @@ w = weights, b = bias, i = input, h = hidden, o = output, l = label
 e.g. w_i_h = weights from input layer to hidden layer
 '''
 data, labels = helper.get_mnist()
-w_i_h = np.random.uniform(-1, 1, (20, 784)) / 784
-w_h_o = np.random.uniform(-1, 1, (10, 20)) / 20
+w_i_h = np.random.uniform(-1, 1, (20, 784))
+w_h_o = np.random.uniform(-1, 1, (10, 20))
 b_i_h = np.random.uniform(-1, 1, (20, 1))
 b_h_o = np.random.uniform(-1, 1, (10, 1))
 
 learn_rate = 0.01
-epochs = 2
+epochs = 3
 batch_size = 1
 acc = 0
 for epoch in range(epochs):
