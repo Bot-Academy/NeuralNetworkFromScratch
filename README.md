@@ -1,5 +1,3 @@
-<img src="https://botacademy.s3.eu-central-1.amazonaws.com/9999_channel_design/logo/900x900.png" alt="drawing" width="200"/>
-
 <p align="center">
     <img src="https://botacademy.s3.eu-central-1.amazonaws.com/9999_channel_design/logo/900x900.png" alt="drawing" width="200"/>
     <br />
