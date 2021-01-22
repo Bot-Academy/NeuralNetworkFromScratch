@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://www.youtube.com/BotAcademyYT"><img src="https://botacademy.s3.eu-central-1.amazonaws.com/9999_channel_design/logo/900x900.png" alt="Logo" width="200"/></a>
+    <a href="https://www.youtube.com/BotAcademyYT"><img src="https://botacademy.s3.eu-central-1.amazonaws.com/9999_channel_design/logo/900x900.png" alt="Logo" width="150"/></a>
     <br />
     <br />
     <a href="http://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/license-MIT-red.svg?style=flat" alt="MIT License"></a>
