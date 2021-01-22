@@ -1,12 +1,11 @@
 <p align="center">
-    <a href="https://youtu.be/9RN2Wr8xvro" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/Bot-Academy/NeuralNetworkFromScratch/master/assets/channel/thumbnail.png" alt="Video Thumbnail"></a>
+    <a href="https://youtu.be/9RN2Wr8xvro" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/Bot-Academy/NeuralNetworkFromScratch/readme/assets/readme/thumbnail.png?token=AFNQ4IJ6V4WFWC2OEJYYODDABM6N4" alt="Video Thumbnail"></a>
     <br />
     <br />
     <a href="http://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/license-MIT-red.svg?style=flat" alt="MIT License"></a>
     <a href="https://twitter.com/bot_academy/"><img src="https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40bot_academy" alt="Twitter">
     <a href="https://github.com/psf/black"><img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black"></a>
     <br />
-    <a href="https://youtu.be/9RN2Wr8xvro" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/Bot-Academy/NeuralNetworkFromScratch/master/assets/channel/logo.png" alt="Video Thumbnail"></a>
     <br />
     <i>Minimalistic implementation of a simple feedforward Neural Network</i>
 </p>
