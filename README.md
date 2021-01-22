@@ -9,7 +9,7 @@
     <br />
     <i>Minimalistic implementation of a simple feedforward Neural Network</i>
     <br />
-    <a href="youtu.be/9rn2wr8xvro"><i>Video</i></a>
+    <a href="https://www.youtube.com/watch?v=9RN2Wr8xvro"><i>Video</i></a>
 </p>
 <hr />
 
