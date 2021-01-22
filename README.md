@@ -1,5 +1,7 @@
+<img src="https://botacademy.s3.eu-central-1.amazonaws.com/9999_channel_design/logo/900x900.png" alt="drawing" width="200"/>
+
 <p align="center">
-    <a href="https://youtu.be/9RN2Wr8xvro" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/Bot-Academy/NeuralNetworkFromScratch/readme/assets/readme/thumbnail.png?token=AFNQ4IORGMCHKLYBTIBG5PTABM6U4" alt="Video Thumbnail"></a>
+    <img src="https://botacademy.s3.eu-central-1.amazonaws.com/9999_channel_design/logo/900x900.png" alt="drawing" width="200"/>
     <br />
     <br />
     <a href="http://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/license-MIT-red.svg?style=flat" alt="MIT License"></a>
