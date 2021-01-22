@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://youtu.be/9RN2Wr8xvro" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/Bot-Academy/NeuralNetworkFromScratch/readme/assets/readme/thumbnail.png?token=AFNQ4IJ6V4WFWC2OEJYYODDABM6N4" alt="Video Thumbnail"></a>
+    <a href="https://youtu.be/9RN2Wr8xvro" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/Bot-Academy/NeuralNetworkFromScratch/readme/assets/readme/thumbnail.png?token=AFNQ4IORGMCHKLYBTIBG5PTABM6U4" alt="Video Thumbnail"></a>
     <br />
     <br />
     <a href="http://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/license-MIT-red.svg?style=flat" alt="MIT License"></a>
