@@ -3,9 +3,11 @@
     <br />
     <br />
     <a href="http://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/license-MIT-3C93B4.svg?style=flat" alt="MIT License"></a>
-    <a href="https://twitter.com/bot_academy/"><img src="https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40bot_academy" alt="Twitter"></a>
-    <a href="https://discord.gg/mMRrZQW"><img src="https://img.shields.io/discord/721253473194344518.svg?label=discord&color=3C93B4&logo=discord" alt="Discord"></a>
     <a href="https://github.com/psf/black"><img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black"></a>
+    <br />
+    <a href="https://twitter.com/bot_academy/"><img src="https://img.shields.io/twitter/follow/bot_academy?label=Follow" alt="Twitter"></a>
+    <a href="https://discord.gg/mMRrZQW"><img src="https://img.shields.io/discord/721253473194344518.svg?label=discord&color=3C93B4&logo=discord" alt="Discord"></a>
+    <a href="https://www.patreon.com/botacademy"><img src="https://img.shields.io/badge/patreon-gray?logo=Patreon" alt="Code style: black"></a>
     <br />
     <br />
     <i>Minimalistic implementation of a simple feedforward Neural Network</i>
