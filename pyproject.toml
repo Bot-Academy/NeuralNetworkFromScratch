@@ -5,7 +5,7 @@ description = "Minimalistic implementation of a simple feedforward Neural Networ
 authors = ["Christian Coenen <smarter.code.yt@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8.6"
+python = "^3.8"
 matplotlib = "~=3.3.1"
 
 [tool.poetry.dev-dependencies]
