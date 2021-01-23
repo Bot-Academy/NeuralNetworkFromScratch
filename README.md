@@ -19,10 +19,10 @@ Check out [this link](https://python-poetry.org/docs/) to install Poetry on your
 
 Make sure you have installed [Python](https://www.python.org/downloads/) 3.8 or higher! Otherwise Step 3 will let you know that you have no compatible Python version installed.
 
-1. Clone this repository
+1. Clone/Download this repository
 2. Navigate to the root of the repository
 3. Run ```poetry install``` to create a virtual environment with Poetry
-4. Run ```poetry run python nn.py``` to run the program
+4. Run ```poetry run python nn.py``` to run the program. Alternatively you can run ```poetry shell``` followed by ```python nn.py```
 5. Enjoy and Subscribe :)
 
 ## Troubleshooting
